@@ -7,13 +7,28 @@ st.set_page_config(page_title="Math Solver", layout="wide")
 
 st.markdown(
     """
-    ### 🤖 Universal Math Solver (Like <a href="https://math.he.net/">math.he.net</a>)
-
-    Enter any mathematical expression — derivative, integral, limit, equation, or function —  
-    and this solver will automatically detect the type and compute the result.
-
-    ---
-    """
+    <div style="padding: 15px 20px; 
+                background: linear-gradient(90deg, #0F2027, #203A43, #2C5364);
+                border-radius: 10px; 
+                margin-bottom: 25px;">
+        <h2 style="color: white; 
+                   font-family: 'Montserrat', sans-serif; 
+                   text-align: center;">
+            🤖 Universal Math Solver 
+            <span style="font-size: 18px; color: #D9EAF7;">
+                (Like <a href="https://math.he.net/" target="_blank" style="color:#D9EAF7;">math.he.net</a>)
+            </span>
+        </h2>
+        <p style="color: #D9EAF7; 
+                  text-align: center; 
+                  font-size: 16px; 
+                  font-family: 'Montserrat', sans-serif;">
+            Enter any mathematical expression — derivative, integral, limit, equation, or function —  
+            and this solver will automatically detect the type and compute the result.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
 )
 
 x = sp.Symbol("x")

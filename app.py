@@ -22,7 +22,7 @@ st.title("📘 JEE Calculus Programming Suite")
 st.write("Welcome! Use the left sidebar to navigate through calculus modules.")
 st.markdown(
     """
-    ### 📘 Welcome to the JEE Calculus Programming Suite
+    # 📘 Welcome to the JEE Calculus Programming Suite
 
     This interactive tool helps students explore and understand key calculus concepts used in **Class 11–12 and JEE Main/Advanced**.  
     Each module in the sidebar focuses on a specific topic and lets you **experiment, visualize, and compute** mathematical expressions instantly.

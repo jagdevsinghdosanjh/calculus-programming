@@ -7,7 +7,7 @@ st.set_page_config(page_title="Math Solver", layout="wide")
 
 st.markdown(
     """
-    ### 🤖 Universal Math Solver (Like math.he.net)
+    ### 🤖 Universal Math Solver (Like <a href="https://math.he.net/">math.he.net</a>)
 
     Enter any mathematical expression — derivative, integral, limit, equation, or function —  
     and this solver will automatically detect the type and compute the result.

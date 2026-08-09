@@ -15,7 +15,7 @@ st.markdown(
                    font-family: 'Montserrat', sans-serif; 
                    text-align: center;">
             🤖 Universal Math Solver 
-            <span style="font-size: 18px; color: #D9EAF7;">
+            <span style="font-size: 12px; color: #D9EAF7;">
                 (Like <a href="https://math.he.net/" target="_blank" style="color:#D9EAF7;">math.he.net</a>)
             </span>
         </h2>

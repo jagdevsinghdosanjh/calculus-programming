@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="banner.png" alt="JEE Calculus Suite Banner" width="100%">
+</p>
+
+<h1 align="center">📘 JEE Calculus Programming Suite</h1>
+<p align="center">
+Interactive Calculus Engine for Class 11–12 & JEE Main/Advanced<br>
+Built with Streamlit • SymPy • NumPy • Matplotlib
+</p>
+
 📘 JEE Calculus Programming Suite
 Interactive Calculus Engine built with Streamlit, SymPy, NumPy & Matplotlib
 This project provides a modular, interactive calculus toolkit designed for Class 11–12 + JEE Main/Advanced students.

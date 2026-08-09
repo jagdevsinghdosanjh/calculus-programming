@@ -1,5 +1,9 @@
 import streamlit as st
 
+# Page configuration MUST be at the top
+st.set_page_config(page_title="JEE Calculus Suite", layout="wide")
+
+# Banner/Header
 st.markdown(
     """
     <div style="background: linear-gradient(90deg, #0F2027, #203A43, #2C5364);
@@ -16,19 +20,22 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.set_page_config(page_title="JEE Calculus Suite", layout="wide")
-
-st.title("📘 JEE Calculus Programming Suite")
-st.write("Welcome! Use the left sidebar to navigate through calculus modules.")
+# Intro section
 st.markdown(
     """
-    # 📘 Welcome to the JEE Calculus Programming Suite
+    ### 📘 Welcome to the JEE Calculus Programming Suite
 
     This interactive tool helps students explore and understand key calculus concepts used in **Class 11–12 and JEE Main/Advanced**.  
     Each module in the sidebar focuses on a specific topic and lets you **experiment, visualize, and compute** mathematical expressions instantly.
 
     ---
+    """,
+    unsafe_allow_html=True
+)
 
+# Feature overview
+st.markdown(
+    """
     ### 🔍 What you can do inside this app
 
     **Limits**  
